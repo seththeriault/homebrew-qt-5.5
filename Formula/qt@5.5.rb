@@ -5,8 +5,9 @@ class QtAT55 < Formula
   homepage "https://www.qt.io/"
   url "https://download.qt.io/archive/qt/5.5/5.5.1/single/qt-everywhere-opensource-src-5.5.1.tar.xz"
   mirror "https://www.mirrorservice.org/sites/download.qt-project.org/archive/qt/5.5/5.5.1/single/qt-everywhere-opensource-src-5.5.1.tar.xz"
+  mirror "http://linorg.usp.br/Qt/archive/qt/5.5/5.5.1/single/qt-everywhere-opensource-src-5.5.1.tar.xz"
   sha256 "6f028e63d4992be2b4a5526f2ef3bfa2fe28c5c757554b11d9e8d86189652518"
-  revision 1
+  revision 2
 
   bottle do
     sha256 "30c5a19c4c18737d40ab072d27a1b5220e746eb7a549812ceb1799eb07cfd58f" => :high_sierra
