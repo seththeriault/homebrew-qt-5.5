@@ -76,7 +76,7 @@ class QtAT55 < Formula
 
   # Additional MaxOSX10.12 SDK bluetooth fixes
   patch do
-    url "https://raw.githubusercontent.com/Homebrew/formula-patches/master/qt%405.5/qtconnectivity-bluetooth-fix-2.patch"
+    url "https://raw.githubusercontent.com/Homebrew/formula-patches/e8ec94c724/qt%405.5/qtconnectivity-bluetooth-fix-2.patch"
     sha256 "d6d6b41aab16d8fbb1bdd1a9c05c519064258c4d5612d281e7f8661ec8990eaf"
   end
 
