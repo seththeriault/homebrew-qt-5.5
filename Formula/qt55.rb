@@ -25,7 +25,8 @@ class Qt55 < Formula
   # reported to fail: <https://github.com/Homebrew/homebrew/issues/45284>.
   #
   # OS X 10.8 Mountain Lion is no longer recognized by Homebrew, so increment
-  depends_on :macos => :mavericks
+  # OS X 10.9 Mavericks is no longer recognized by Homebrew, so increment
+  depends_on :macos => :yosemite
 
   # Build error: Fix library detection for QtWebEngine with Xcode 7.
   # https://codereview.qt-project.org/#/c/1w27759/
