@@ -9,13 +9,6 @@ class Qt55 < Formula
   sha256 "6f028e63d4992be2b4a5526f2ef3bfa2fe28c5c757554b11d9e8d86189652518"
   revision 2
 
-  bottle do
-    sha256 "30c5a19c4c18737d40ab072d27a1b5220e746eb7a549812ceb1799eb07cfd58f" => :high_sierra
-    sha256 "f44403a72ab524a6f010bcf86f1414c42729f4763f4e7c2cfb0f6cba2b6135d2" => :sierra
-    sha256 "e1e66c950b66c9bd59b43566a4a5919f4f14a0331c7d9aa062d8c6a152e157c4" => :el_capitan
-    sha256 "debdc797d8314548a7cfc05ac97699d98ceeaf46265180a979bbb96190024d1c" => :yosemite
-  end
-
   keg_only :versioned_formula
 
   depends_on :xcode => :build
